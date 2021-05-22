@@ -35,7 +35,8 @@ const char message[] =
 	"\n"
 	"For more examples and ideas, visit:\n"
 	" https://docs.docker.com/get-started/\n"
-	"\n";
+	"\n"
+	"testing testing testing";
 
 int main() {
 	//write(1, message, sizeof(message) - 1);
