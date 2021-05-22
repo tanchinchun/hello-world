@@ -16,7 +16,7 @@
 const char message[] =
 	"\n"
 	DOCKER_GREETING "\n"
-	"This message shows that your installation appears to be working correctly.\n"
+	"Hello tcc, This message shows that your installation appears to be working correctly.\n"
 	"\n"
 	"To generate this message, Docker took the following steps:\n"
 	" 1. The Docker client contacted the Docker daemon.\n"
@@ -36,7 +36,8 @@ const char message[] =
 	"For more examples and ideas, visit:\n"
 	" https://docs.docker.com/get-started/\n"
 	"\n"
-	"testing testing testing";
+	"testing testing testing"
+	"\n";
 
 int main() {
 	//write(1, message, sizeof(message) - 1);
